@@ -169,6 +169,9 @@ public class MainActivity extends AppCompatActivity implements
                 AuthUI.getInstance().signOut(this);
                 startSignIn();
                 break;
+            case R.id.menu_add_student_info:
+                onAddStudentInfoClicked();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -268,6 +271,11 @@ public class MainActivity extends AppCompatActivity implements
 
         startActivityForResult(intent, RC_SIGN_IN);
         mViewModel.setIsSigningIn(true);
+    }
+
+    private void onAddStudentInfoClicked() {
+        // Launch student info form.
+
     }
 
     private void onAddItemsClicked() {

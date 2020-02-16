@@ -28,6 +28,7 @@
     <string name="sorted_by_popularity">sorted by popularity</string>
 
     <string name="add_random_items">Add Random Items</string>
+    <string name="add_student_info">Add Student Info</string>
     <string name="sign_out">Sign Out</string>
     <string name="divider_bullet">•</string>
     <string name="apply">Apply</string>
@@ -131,4 +132,6 @@
         <item>@string/sort_by_popularity</item>
         <item>@string/sort_by_price</item>
     </string-array>
+    <string name="title_activity_student_info_form">StudentInfoFormActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>
