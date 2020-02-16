@@ -132,6 +132,6 @@
         <item>@string/sort_by_popularity</item>
         <item>@string/sort_by_price</item>
     </string-array>
-    <string name="title_activity_student_info_form">StudentInfoFormActivity</string>
+    <string name="title_activity_student_info_form">Add Student Information</string>
     <string name="action_settings">Settings</string>
 </resources>

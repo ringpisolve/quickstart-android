@@ -275,6 +275,8 @@ public class MainActivity extends AppCompatActivity implements
 
     private void onAddStudentInfoClicked() {
         // Launch student info form.
+        Intent intent = new Intent(this, StudentInfoFormActivity.class);
+        startActivity(intent);
 
     }
 
