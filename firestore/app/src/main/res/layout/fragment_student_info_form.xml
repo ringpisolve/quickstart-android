@@ -23,6 +23,7 @@
             android:paddingTop="10dp"
             android:hint="@string/hint_text_first_name">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/firstName_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -35,6 +36,7 @@
             android:paddingTop="10dp"
             android:hint="@string/hint_text_last_name">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lastName_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -49,6 +51,7 @@
             android:paddingTop="10dp"
             android:hint="@string/hint_text_admission_no">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/admissionNo_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
