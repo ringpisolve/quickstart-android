@@ -134,4 +134,7 @@
     </string-array>
     <string name="title_activity_student_info_form">Add Student Information</string>
     <string name="action_settings">Settings</string>
+    <string name="hint_text_first_name">First Name</string>
+    <string name="hint_text_last_name">Last Name</string>
+    <string name="hint_text_admission_no">Admission Number</string>
 </resources>
